@@ -25,6 +25,8 @@ import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class ErrorValidationsTest extends BaseTest {
 
+//Checking the CICD integration.
+
 	@Test(groups = {"ErrorHandling"}, retryAnalyzer = Retry.class)
 	public void loginErrorValidation() throws IOException {
 
